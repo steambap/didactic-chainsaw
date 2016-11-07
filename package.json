@@ -1,0 +1,25 @@
+{
+  "name": "didactic-chainsaw",
+  "version": "1.0.0",
+  "description": "try to play around with robotjs",
+  "main": "index.js",
+  "dependencies": {
+    "co": "^4.6.0",
+    "robotjs": "^0.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steambap/didactic-chainsaw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steambap/didactic-chainsaw/issues"
+  },
+  "homepage": "https://github.com/steambap/didactic-chainsaw#readme"
+}
