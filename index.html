@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<meta charset="utf8">
+		<style>
+			body {
+				font-family: Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3>
+						1.网线，电缆和WiFi
+					</h3>
+					<h4>数据的传输</h4>
+				</section>
+				<section>
+					<h3>你的手机为什么能接收别人发送的</h3>
+					<h4>图片，文字，或邮件？</h4>
+					<p class="fragment">因为有互联网</p>
+					<p class="fragment">一个用于传递信息的物理系统</p>
+				</section>
+				<section>
+					<h3>就像是快递一样</h3>
+					<p class="fragment">这里没有包裹，只有数据/信息</p>
+				</section>
+				<section>
+					<h3>数据是由二进制来组成的</h3>
+					<p>就是开或关，0或1</p>
+				</section>
+				<section>
+					<p>一个bit是由一个0或1组成</p>
+					<p>8个bits组成一个byte</p>
+					<p class="fragment">一首歌大概3~4Mb</p>
+				</section>
+				<section>
+					<h3>传输这些数据的快递员是光缆，铜线和无线电波</h3>
+				</section>
+				<section>
+					<h3>2.IP 地址和 DNS</h3>
+					<h4>如何互联</h4>
+				</section>
+				<section>
+					<p>你的手机连接到了WiFi，或移动网络</p>
+					<p class="fragment">但这个连接是由网络服务提供商...</p>
+					<p class="fragment">然后由ISP和其它的网络互相连接</p>
+					<p class="fragment">是为“互联网”</p>
+				</section>
+				<section>
+					<h3>每个联网的电子设备都有一个唯一地址</h3>
+					<p>就像是电话号码或地址</p>
+					<p class="fragment">你不需要“认识”那个设备，只需要知道地址。。。</p>
+				</section>
+				<section>
+					<h3>IP 地址</h3>
+					<p>0.0.0.0</p>
+				</section>
+				<section>
+					<h3>当你访问一个网站时</h3>
+					<p>你其实是你的设备向DNS系统</p>
+					<p>查询网站地址对应的IP</p>
+				</section>
+				<section>
+					<p>DNS 服务器</p>
+				</section>
+				<section>
+					<h3>3.包，路由和可靠性</h3>
+				</section>
+				<section>
+					<h3>互联网不是直连的</h3>
+					<p class="fragment">设备之前互相传输的是包</p>
+					<p class="fragment">包从一个设备到另一个设备有点像是开车。。。</p>
+					<p class="fragment">根据路况的不同包也会走不同的路线</p>
+				</section>
+				<section>
+					<h3>包的容量是有限的</h3>
+					<p>所以数据要分成包发送</p>
+					<p class="fragment">每个包都可以走不同的路线，在不同时间到达</p>
+				</section>
+				<section>
+					<h3>包其实不会选择路线</h3>
+					<h4>而是由路由指挥的</h4>
+					<p>路线的选择是由多种因素决定的。。。</p>
+					<p>所以你的设备可以持续发送东西来保障可靠性</p>
+				</section>
+				<section>
+					<h3>TCP</h3>
+				</section>
+				<section>
+					<h3>4.HTTP和HTML</h3>
+				</section>
+				<section>
+					<h3>你打开浏览器，输入地址，回车</h3>
+					<p>你的设备也找到了网站的IP地址</p>
+				</section>
+				<section>
+					<h3>HTTP</h3>
+					<p>GET/POST Content-Type</p>
+				</section>
+				<section>
+					<h3>HTML</h3>
+				</section>
+			</div>
+		</div>
+		<script src="js/reveal.js"></script>
+		<script>
+			Reveal.initialize();
+		</script>
+	</body>
+</html>
